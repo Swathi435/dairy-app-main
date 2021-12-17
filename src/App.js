@@ -1,6 +1,8 @@
 
 // import CompanyData from "./components/Controller/CompanyData";
+import { Route } from "react-router/cjs/react-router.min";
 import AddCompany  from "./components/Controller/AddCompany";
+import GetAllCompany from "./components/Controller/GetAllCompany";
 
 //import Routes from "./Routes";
 //import SpringCompanyData from "./Components/SpringCompanyData";
@@ -8,9 +10,10 @@ import AddCompany  from "./components/Controller/AddCompany";
 const App = () => {
   return (
     <div className="bg-light">
-      {/* <Routes />   */}
+      {/* <Route/>  */}
          {/* <CompanyData/> */}
-         <AddCompany/>  
+         <AddCompany/>
+         <GetAllCompany/>  
         {/* <SpringCompanyData/> */}
     </ div>
   );

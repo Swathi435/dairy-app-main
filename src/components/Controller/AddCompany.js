@@ -1,10 +1,10 @@
 
 import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
-import { getAllCompanyService, getCompanyByIdService, addcompanyService } from "../services/CompanyService";
+
 import axios from "axios";
 import Company from "../models/Company";
-import { addcompany } from "../../redux/CompSlice";
+
 
 const AddCompany = () => {
 
